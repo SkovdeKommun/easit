@@ -8086,13 +8086,13 @@ fieldset[disabled] .datepicker table tr td span.active.disabled:hover.active {
   --primary-color: #00964f;
   --primary-color-light: #63C295;
   --primary-color-lighter: #E3F2E9;
-  --primary-color-dark: #267d70;
-  --primary-color-darker: #061513;
+  --primary-color-dark: #006334;
+  --primary-color-darker: #003019;
   --accent-color: #5D4FA1;
   --accent-color-light: #9186BF;
   --accent-color-lighter: #ECE3F0;
-  --accent-color-dark: #80461f;
-  --accent-color-darker: #190e06;
+  --accent-color-dark: #030238;
+  --accent-color-darker: #000007;
   --alert-color: #d42f2f;
   --success-color: #00661F;
   --success-color-dark: #0B501E;
