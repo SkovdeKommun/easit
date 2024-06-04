@@ -8684,3 +8684,17 @@ label SPAN.z-label:first-of-type{
 select.form-control:hover{
     font-size: 14px !important;
 }
+
+/* CHAT STYLING */
+
+.mi-ct{
+    font-size: 2rem;
+}
+
+.mi-ct > button{
+    font-size: 2rem;
+}
+
+.mi-ct .card-header > button{
+    font-size: 3rem;
+}
