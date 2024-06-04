@@ -8688,13 +8688,13 @@ select.form-control:hover{
 /* CHAT STYLING */
 
 .mi-ct{
-    font-size: 2rem;
+    font-size: 2rem !important;
 }
 
 .mi-ct > button{
-    font-size: 2rem;
+    font-size: 2rem !important;
 }
 
 .mi-ct .card-header > button{
-    font-size: 3rem;
+    font-size: 3rem !important;
 }
