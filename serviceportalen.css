@@ -8699,6 +8699,10 @@ select.form-control:hover{
     font-size: 3rem !important;
 }
 
+.mi-ct .card-body #request-chat{
+	font-size: 12pt;
+}
+
 .input-group.mb-3 textarea.form-control, .input-group.mb-3 input.form-control, .input-group.mb-3 .fas{
 	font-size: 12pt;
 }
