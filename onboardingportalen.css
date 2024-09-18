@@ -8684,3 +8684,8 @@ label SPAN.z-label:first-of-type{
 select.form-control:hover{
     font-size: 14px !important;
 }
+.frontpage.z-div .position-relative.z-window.z-window-noborder.z-window-noheader{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 25px;
+}
