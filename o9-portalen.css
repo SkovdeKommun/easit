@@ -8584,6 +8584,11 @@ a:focus{
     width: 100%;
 }
 
+.checkbox label{
+    display: block;
+    width: 100%;
+}
+
 /***** UNCOMMENT THIS FOR "BIG-BUTTON" LAYOUT FOR "MINA ÄRENDEN"
 .frontpage .row.z-div > .col-sm-6.z-div:first-of-type > div > a > div{
   display: flex;
