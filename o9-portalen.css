@@ -8562,6 +8562,27 @@ a:focus{
   color: black !important;
 }
 
+.radio, .checkbox{
+    margin: 0 !important;
+}
+
+.form-group.z-div > label:has(.checkbox){
+    width: 50% !important;
+}
+
+.e-checkgroup > .z-div {
+    display: flex;
+    flex-direction: column;
+}
+
+.e-checkgroup SPAN.z-checkbox{
+    margin: 0;
+}
+
+.z-checkbox-content{
+    display: block;
+    width: 100%;
+}
 
 /***** UNCOMMENT THIS FOR "BIG-BUTTON" LAYOUT FOR "MINA ÄRENDEN"
 .frontpage .row.z-div > .col-sm-6.z-div:first-of-type > div > a > div{
@@ -8589,3 +8610,5 @@ a:focus{
     margin: 5px 0;
     min-width: 50%;
 }
+
+
