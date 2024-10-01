@@ -8564,6 +8564,7 @@ a:focus{
 
 .radio, .checkbox{
     margin: 0 !important;
+    height: 20px;
 }
 
 .form-group.z-div > label:has(.checkbox){
@@ -8573,6 +8574,7 @@ a:focus{
 .e-checkgroup > .z-div {
     display: flex;
     flex-direction: column;
+    height: 25px;
 }
 
 .e-checkgroup SPAN.z-checkbox{
