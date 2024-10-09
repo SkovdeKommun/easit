@@ -8706,3 +8706,32 @@ select.form-control:hover{
 .input-group.mb-3 textarea.form-control, .input-group.mb-3 input.form-control, .input-group.mb-3 .fas{
 	font-size: 12pt;
 }
+
+.radio, .checkbox{
+    margin: 0 !important;
+    height: 20px;
+}
+
+.form-group.z-div > label:has(.checkbox){
+    width: 50% !important;
+}
+
+.e-checkgroup > .z-div {
+    display: flex;
+    flex-direction: column;
+}
+
+.e-checkgroup SPAN.z-checkbox{
+    margin: 0;
+}
+
+.z-checkbox-content{
+    display: block;
+    width: 100%;
+}
+
+.checkbox label{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
