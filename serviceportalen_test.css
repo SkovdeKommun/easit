@@ -8732,3 +8732,9 @@ select.form-control:hover{
     width: 100%;
     height: 100%;
 }
+
+.vertical.z-radiogroup.z-radiogroup-vertical{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
