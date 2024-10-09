@@ -8567,10 +8567,6 @@ a:focus{
     height: 20px;
 }
 
-.form-group.z-div > label:has(.checkbox){
-    width: 50% !important;
-}
-
 .e-checkgroup > .z-div {
     display: flex;
     flex-direction: column;
