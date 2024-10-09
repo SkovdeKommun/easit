@@ -8719,6 +8719,7 @@ select.form-control:hover{
 
 .e-checkgroup SPAN.z-checkbox{
     margin: 0;
+    height: 25px;
 }
 
 .z-checkbox-content{
