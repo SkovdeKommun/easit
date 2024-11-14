@@ -8689,3 +8689,8 @@ select.form-control:hover{
     border-radius: 5px;
     padding: 25px;
 }
+
+.frontpage.z-div .position-relative.z-window.z-window-noborder.z-window-noheader:first-of-type{
+    border: none;
+    padding: 0px;
+}
