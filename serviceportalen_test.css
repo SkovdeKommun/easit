@@ -8740,5 +8740,5 @@ select.form-control:hover{
 }
 
 .z-radiogroup.horizontal SPAN.z-radio{
-	margin-right: 10px;
+	margin-right: 10px !important;
 }
