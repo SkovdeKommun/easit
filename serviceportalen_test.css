@@ -8738,3 +8738,7 @@ select.form-control:hover{
     flex-direction: column;
     gap: 5px;
 }
+
+.z-radiogroup.horizontal SPAN.z-radio{
+	margin-right: 10px;
+}
