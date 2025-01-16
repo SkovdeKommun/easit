@@ -8703,6 +8703,11 @@ select.form-control:hover{
 	font-size: 12pt;
 }
 
+.mi-ct .form-control{
+	font-size: 2rem;
+	min-height: 155px;
+}
+
 .input-group.mb-3 textarea.form-control, .input-group.mb-3 input.form-control, .input-group.mb-3 .fas{
 	font-size: 12pt;
 }
@@ -8742,3 +8747,5 @@ select.form-control:hover{
 .z-radiogroup.horizontal SPAN.z-radio{
 	margin-right: 10px !important;
 }
+
+
