@@ -8691,6 +8691,14 @@ select.form-control:hover{
     font-size: 2rem !important;
 }
 
+.mi-ct .form-control{
+	font-size: 2rem;
+}
+
+.mi-ct .input-group > .form-control:not(:last-child){
+	min-height: 155px;
+}
+
 .mi-ct > button{
     font-size: 2rem !important;
 }
