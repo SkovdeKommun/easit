@@ -8751,4 +8751,8 @@ select.form-control:hover{
 	margin-right: 10px !important;
 }
 
+/* fix for some font-awesome icons */
+.far{
+	font-weight: 900 !important;
+}
 
