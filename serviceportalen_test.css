@@ -8717,7 +8717,6 @@ select.form-control:hover{
 
 .radio, .checkbox{
     margin: 0 !important;
-    height: 20px;
 }
 
 .e-checkgroup > .z-div {
@@ -8727,7 +8726,6 @@ select.form-control:hover{
 
 .e-checkgroup SPAN.z-checkbox{
     margin: 0;
-    height: 25px;
 }
 
 .z-checkbox-content{
