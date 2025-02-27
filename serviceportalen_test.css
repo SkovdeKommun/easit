@@ -8754,3 +8754,7 @@ select.form-control:hover{
 	font-weight: 900 !important;
 }
 
+.secret-passage{
+	display:none;
+}
+
