@@ -9122,3 +9122,7 @@ a:focus,
 body{
 	background-color: var(--selfservice-branding-color-220-lighter) !important;
 }
+
+.widget{
+	border: 0;
+}
