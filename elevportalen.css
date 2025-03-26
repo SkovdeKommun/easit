@@ -7,9 +7,9 @@
   /***   Branding   ***/
   /***              ***/
   /********************/
-  --selfservice-branding-color-h: 200;
-  --selfservice-branding-color-s: 60%;
-  --selfservice-branding-color-l: 40%;
+  --selfservice-branding-color-h: 260;
+  --selfservice-branding-color-s: 36%;
+  --selfservice-branding-color-l: 43%;
   --selfservice-branding-color-hsl: var(--selfservice-branding-color-h), var(--selfservice-branding-color-s), var(--selfservice-branding-color-l);
   --selfservice-branding-color: hsl(var(--selfservice-branding-color-hsl));
   --selfservice-branding-color-10-lighter: hsl(var(--selfservice-branding-color-h),var(--selfservice-branding-color-s),calc(var(--selfservice-branding-color-l) * 1.1));
