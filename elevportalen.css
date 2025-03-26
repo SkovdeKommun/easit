@@ -9115,3 +9115,10 @@ a:focus,
 .form-control:focus{
 	outline-color: var(--selfservice-default-outline-color) !important;
 }
+
+
+
+/***** CUSTOM CHANGES *****/
+body{
+	background-color: var(--selfservice-branding-color-220-lighter);
+}
