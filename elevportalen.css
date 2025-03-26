@@ -9123,6 +9123,10 @@ body{
 	background-color: var(--selfservice-branding-color-220-lighter) !important;
 }
 
+.signedInUser a{
+	display: none;
+}
+
 .widget{
 	border: 0;
 	background-color: transparent;
