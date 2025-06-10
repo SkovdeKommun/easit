@@ -9140,3 +9140,8 @@ body{
 .well{
 	min-height: 150px;
 }
+
+/* Hide messageboard (anslagstavla) if it is empty */
+.widget.messageboard:not(:has(div):has(.messageboard-item)){
+  display: none;
+}
