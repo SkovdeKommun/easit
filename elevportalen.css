@@ -9143,5 +9143,13 @@ body{
 
 /* Hide messageboard (anslagstavla) if it is empty */
 .widget.messageboard:not(:has(div):has(.messageboard-item)){
-  display: none;
+  	display: none;
+}
+
+/* Style Information-widget */
+.frontpage.z-div .position-relative.z-window.z-window-noborder.z-window-noheader {
+    	border: 1px solid black;
+    	border-radius: 5px;
+	padding: 25px;
+  	background-color: white;
 }
