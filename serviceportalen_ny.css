@@ -9182,3 +9182,116 @@ header .logo > div:first-of-type {
 	font-family: 'PT Sans', sans-serif;
 	letter-spacing: 5px;
 }
+
+/*** FRONTPAGE THREE COLUMN VERSION ***/
+.frontpage
+  .content
+  > .z-window.z-window-noborder.z-window-noheader.z-window-embedded:first-of-type {
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  text-align: center;
+}
+
+.frontpage .content > .z-window.z-window-noborder.z-window-noheader.z-window-embedded:first-of-type > .z-window-content{
+  padding: 0;
+}
+
+.frontpage
+  .content
+  > .z-window.z-window-noborder.z-window-noheader.z-window-embedded
+  > .z-window-content{
+  border: 0;
+}
+
+.frontpage
+  .content
+  > .z-window.z-window-noborder.z-window-noheader.z-window-embedded
+  ~ .z-window.z-window-noborder.z-window-noheader.z-window-embedded {
+  text-align: center;
+}
+
+.frontpage .content > .z-window > .z-window-content > .row{
+  padding: 15px;
+  border: none;
+  border-radius: 4px;
+  background-color: var(--widget-color);
+  margin: 0;
+}
+
+.frontpage .content > .z-window > .z-window-content > .row > .col-md-12.z-div > .p.z-div{
+  display: flex;
+  
+}
+
+.frontpage .sidebar{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.frontpage .sidebar .widget-title{
+  display: none;
+}
+
+.frontpage .sidebar .widget{
+  background-color: transparent;
+}
+
+.frontpage .sidebar .widget-content{
+  padding: 0;
+}
+
+.frontpage .sidebar .widget .widget-content > .z-div{
+  display: flex;
+  justify-content: space-between;
+}
+
+.frontpage .sidebar > .z-window.z-window-noborder.z-window-noheader.z-window-embedded{
+  width: 100%;
+}
+
+.frontpage .content{
+  width: 100%;
+}
+
+.frontpage .content .p.z-div .z-div > .row.z-div{
+  width: 100%;
+}
+
+.frontpage .content > .z-div > .row.z-div > .col-md-12.z-div{
+  width: 100%;
+  padding: 0;
+}
+
+.frontpage .content > .z-div > .row.z-div > .col-md-12.z-div > .p.z-div > .z-div{
+  width: 100%;
+}
+
+.frontpage .content > .z-div > .row.z-div > .col-md-12.z-div > .p.z-div > .z-div > .row.z-div{
+  margin: 0;
+}
+
+.frontpage .content .p.z-div .z-div > .row.z-div > .col-sm-6.z-div{
+  width: 33.33333333333333%;
+}
+
+.frontpage
+  .sidebar
+  > .z-window.z-window-noborder.z-window-noheader.z-window-embedded {
+  border-radius: 0 0 4px 4px;
+  background-color: transparent;
+}
+
+.frontpage
+  .sidebar
+  > .z-window.z-window-noborder.z-window-noheader.z-window-embedded:first-of-type {
+  border-radius: 4px 4px 0 0;
+}
+
+.frontpage
+  .sidebar
+  > .z-window.z-window-noborder.z-window-noheader.z-window-embedded
+  > div {
+  background-color: transparent;
+  padding: 0 !important;
+}
