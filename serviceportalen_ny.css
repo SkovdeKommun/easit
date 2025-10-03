@@ -9123,6 +9123,7 @@ body{
 	
 }
 
+/*** INLOGGAD SOM-KOMPONENT ***/
 .signedInUser a{
 	display: none;
 }
@@ -9147,6 +9148,7 @@ body{
 	box-shadow: var(--selfservice-default-boxshadow);
 }
 
+/*** HEADER-KOMPONENT ***/
 header {
   background-color: var(--selfservice-branding-color-10-lighter) !important;
   display: flex;
@@ -9159,4 +9161,24 @@ header .logo > div:first-of-type {
 .headerSignedIn span {
   font-size: 24px;
   color: white !important;
+}
+
+.headerSignedIn .z-label {
+  display: flex;
+  flex-direction: column;
+}
+
+.headerSignedIn .z-label::before {
+  content: "Inloggad som:";
+  color: white;
+  font-size: 14px;
+}
+
+.selfservice-header-component .logo .row:nth-child(2) SPAN{
+	font-size: inherit;
+	top: inherit;
+	left: inherit;
+	color: white;
+	font-family: 'PT Sans', sans-serif;
+	letter-spacing: 5px;
 }
