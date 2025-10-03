@@ -9138,10 +9138,6 @@ body{
 	border: 0;
 }
 
-.well{
-	min-height: 150px;
-}
-
 .selfservice-info-mini-widget{
 	background-color: white;
 	padding: 20px !important;
@@ -9299,6 +9295,6 @@ header .logo > div:first-of-type {
 .well{
 	overflow-wrap: anywhere;
 	word-break: normal;
-	min-height: 150px;
-	max-width: 360px;
+	min-height: 150px !important;
+	max-width: 360px !important;
 }
