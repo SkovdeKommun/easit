@@ -9120,7 +9120,7 @@ a:focus,
 
 /***** CUSTOM CHANGES *****/
 body{
-	background-color: var(--selfservice-branding-color-220-lighter) !important;
+	
 }
 
 .signedInUser a{
