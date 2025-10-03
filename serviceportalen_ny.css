@@ -9140,3 +9140,8 @@ body{
 .well{
 	min-height: 150px;
 }
+
+.selfservice-info-mini-widget{
+	background-color: white;
+	padding: 20px;
+}
