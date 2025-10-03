@@ -9302,3 +9302,24 @@ header .logo > div:first-of-type {
     justify-content: center;
     align-items: center;
 }
+
+/*** MESSAGEBOARD-KOMPONENT (ANSLAGSTAVLA ***/
+.widget.messageboard{
+  display: block;
+}
+.widget.messageboard > .widget-title {
+  background-color: var(--alert-color);
+}
+.widget.messageboard .messageboard-item{
+  border-radius: 4px;
+}
+.widget.messageboard .messageboard-item:only-of-type{
+  border-radius: 4px;
+}
+.widget.messageboard .messageboard-item:last-of-type{
+  border-bottom: none;
+  border-radius: 0 0 4px 4px
+}
+.widget.messageboard:not(:has(div):has(.messageboard-item)){
+  display: none;
+}
