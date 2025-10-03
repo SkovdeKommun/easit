@@ -9146,3 +9146,17 @@ body{
 	padding: 20px !important;
 	box-shadow: var(--selfservice-default-boxshadow);
 }
+
+header {
+  background-color: var(--selfservice-branding-color-10-lighter) !important;
+  display: flex;
+}
+
+header .logo > div:first-of-type {
+  display: none;
+}
+
+.headerSignedIn span {
+  font-size: 24px;
+  color: white !important;
+}
