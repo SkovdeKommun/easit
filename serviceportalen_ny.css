@@ -9327,5 +9327,5 @@ header .logo > div:first-of-type {
 
 /*** FAQ-KOMPONENT ***/
 .selfservice-faq-mini-widget .widget-content{
-	padding: 20px;
+	padding: 20px !important;
 }
