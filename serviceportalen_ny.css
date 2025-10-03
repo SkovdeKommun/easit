@@ -9294,3 +9294,11 @@ header .logo > div:first-of-type {
   background-color: transparent;
   padding: 0 !important;
 }
+
+/*** WELL-KOMPONENT ***/
+.well{
+	overflow-wrap: anywhere;
+	word-break: normal;
+	min-height: 150px;
+	max-width: 360px;
+}
