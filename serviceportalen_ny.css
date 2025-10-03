@@ -9214,7 +9214,6 @@ header .logo > div:first-of-type {
   padding: 15px;
   border: none;
   border-radius: 4px;
-  background-color: var(--widget-color);
   margin: 0;
 }
 
