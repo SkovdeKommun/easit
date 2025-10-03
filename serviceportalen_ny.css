@@ -9297,4 +9297,8 @@ header .logo > div:first-of-type {
 	word-break: normal;
 	min-height: 150px !important;
 	max-width: 360px !important;
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
