@@ -9323,3 +9323,9 @@ header .logo > div:first-of-type {
 .widget.messageboard:not(:has(div):has(.messageboard-item)){
   display: none;
 }
+
+
+/*** FAQ-KOMPONENT ***/
+.selfservice-faq-mini-widget .widget-content{
+	padding: 20px;
+}
