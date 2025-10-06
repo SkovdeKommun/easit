@@ -9179,6 +9179,8 @@ header .logo > div:first-of-type {
 	letter-spacing: 5px;
 }
 
+/*** HEADER-KOMPONENT END ***/
+
 /*** FRONTPAGE THREE COLUMN VERSION ***/
 .frontpage
   .content
@@ -9291,6 +9293,8 @@ header .logo > div:first-of-type {
   padding: 0 !important;
 }
 
+/*** FRONTPAGE THREE COLUMN VERSION END ***/
+
 /*** WELL-KOMPONENT ***/
 .well{
 	overflow-wrap: anywhere;
@@ -9303,7 +9307,9 @@ header .logo > div:first-of-type {
     align-items: center;
 }
 
-/*** MESSAGEBOARD-KOMPONENT (ANSLAGSTAVLA ***/
+/*** WELL-KOMPONENT END ***/
+
+/*** MESSAGEBOARD-KOMPONENT (ANSLAGSTAVLA) ***/
 .widget.messageboard{
   display: block;
 }
@@ -9328,8 +9334,39 @@ header .logo > div:first-of-type {
 	text-align: center;
 }
 
+/*** MESSAGEBOARD-KOMPONENT (ANSLAGSTAVLA) END ***/
+
 
 /*** FAQ-KOMPONENT ***/
 .selfservice-faq-mini-widget .widget-content{
 	padding: 20px !important;
 }
+
+/*** FAQ-KOMPONENT END ***/
+
+/*** CHAT WIDGET ***/
+.mi-ct{
+    font-size: 2rem !important;
+}
+
+.mi-ct .form-control{
+	font-size: 2rem !important;
+}
+
+.mi-ct .input-group > .form-control:not(:last-child){
+	min-height: 155px;
+}
+
+.mi-ct > button{
+    font-size: 2rem !important;
+}
+
+.mi-ct .card-header > button{
+    font-size: 3rem !important;
+}
+
+.mi-ct .card-body #request-chat{
+	font-size: 12pt;
+}
+
+/*** CHAT WIDGET END ***/
