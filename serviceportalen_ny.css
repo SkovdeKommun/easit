@@ -9324,6 +9324,10 @@ header .logo > div:first-of-type {
   display: none;
 }
 
+.well-header + .p.z-div{
+	text-align: center;
+}
+
 
 /*** FAQ-KOMPONENT ***/
 .selfservice-faq-mini-widget .widget-content{
