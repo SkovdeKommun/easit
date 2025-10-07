@@ -9334,6 +9334,10 @@ header .logo > div:first-of-type {
 	text-align: center;
 }
 
+.well:hover{
+	outline: 2px solid var(--selfservice-default-link-color);
+}
+
 /*** MESSAGEBOARD-KOMPONENT (ANSLAGSTAVLA) END ***/
 
 
