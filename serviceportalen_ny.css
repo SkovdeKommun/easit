@@ -9337,6 +9337,7 @@ header .logo > div:first-of-type {
 .well:hover{
 	outline: 2px solid var(--selfservice-default-link-color);
 	box-shadow: none;
+	-webkit-box-shadow: none;
 }
 
 /*** MESSAGEBOARD-KOMPONENT (ANSLAGSTAVLA) END ***/
