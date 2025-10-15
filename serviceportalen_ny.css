@@ -9376,3 +9376,15 @@ header .logo > div:first-of-type {
 }
 
 /*** CHAT WIDGET END ***/
+
+
+/*** MEDIA QUERIES / RESPONSIVENESS STUFF ***/
+
+@media (max-width: 767px) {
+	.well{
+		max-width: 100%;
+	}
+	.frontpage .content .p.z-div .z-div > .row.z-div > .col-sm-6.z-div{
+		width: 100%;
+	}
+}
