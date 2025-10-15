@@ -9382,7 +9382,7 @@ header .logo > div:first-of-type {
 
 @media (max-width: 767px) {
 	.well{
-		max-width: 100%;
+		max-width: 100% !important;
 	}
 	.frontpage .content .p.z-div .z-div > .row.z-div > .col-sm-6.z-div{
 		width: 100%;
