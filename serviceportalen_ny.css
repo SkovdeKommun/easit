@@ -9283,6 +9283,7 @@ header .logo > div:first-of-type {
   .sidebar
   > .z-window.z-window-noborder.z-window-noheader.z-window-embedded:first-of-type {
   border-radius: 4px 4px 0 0;
+  overflow: visible;
 }
 
 .frontpage
@@ -9291,6 +9292,7 @@ header .logo > div:first-of-type {
   > div {
   background-color: transparent;
   padding: 0 !important;
+  overflow: visible;
 }
 
 /*** FRONTPAGE THREE COLUMN VERSION END ***/
