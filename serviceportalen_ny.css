@@ -9379,6 +9379,14 @@ header .logo > div:first-of-type {
 
 /*** CHAT WIDGET END ***/
 
+/*** MINA ÄRENDEN ***/
+.selfservice-mobileitemlist-component .mobile-listbox .z-listitem .z-listcell .z-listcell-content:hover{
+	outline: 2px solid var(--selfservice-default-link-color);
+    box-shadow: none;
+    -webkit-box-shadow: none;
+}
+/*** MINA ÄRENDEN END ***/
+
 
 /*** MEDIA QUERIES / RESPONSIVENESS STUFF ***/
 
