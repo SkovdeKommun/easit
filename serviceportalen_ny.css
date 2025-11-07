@@ -9395,8 +9395,10 @@ header .logo > div:first-of-type {
 }
 
 .panel-gradient .panel-body UL LI A:hover{
-	scale: 1.02;
 	background: transparent;
+    outline: 2px solid var(--selfservice-default-link-color);
+    box-shadow: none;
+    -webkit-box-shadow: none;
 }
 /*** MINA ÄRENDEN END ***/
 
