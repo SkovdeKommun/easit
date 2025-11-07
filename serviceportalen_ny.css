@@ -9403,6 +9403,45 @@ header .logo > div:first-of-type {
 /*** MINA ÄRENDEN END ***/
 
 
+/*** SOME HOVER STUFF ***/
+.form-control:hover {
+    outline: 1px solid var(--selfservice-default-link-color);
+    box-shadow: none;
+    -webkit-box-shadow: none;
+}
+
+.btn:hover{
+	outline: 1px solid var(--selfservice-default-link-color);
+    box-shadow: none;
+    -webkit-box-shadow: none;
+}
+
+.selfservice-mobileitemlist-component.selection-mode-single .z-listbox .z-listitem:hover .z-listcell  .z-listcell-content,
+.selfservice-mobileitemlist-component.selection-mode-multiple .z-listbox .z-listitem:hover .z-listcell:nth-child(2) .z-listcell-content{
+	outline: 1px solid var(--selfservice-default-link-color);
+    box-shadow: none;
+    -webkit-box-shadow: none;
+}
+
+.selfservice-productlist-component .card:hover{
+    outline: 1px solid var(--selfservice-default-link-color);
+    box-shadow: none;
+    -webkit-box-shadow: none;
+}
+
+.selfservice-productlist-component .layout-compact .table TR.item:hover TD.focus-anchor:before {
+    outline: 1px solid var(--selfservice-default-link-color);
+    box-shadow: none;
+    -webkit-box-shadow: none;
+}
+
+.table-cards TR.item:hover TD.focus-anchor:before {
+    outline: 1px solid var(--selfservice-default-link-color);
+    box-shadow: none;
+    -webkit-box-shadow: none;
+}
+/*** SOME HOVER STUFF END ***/
+
 /*** MEDIA QUERIES / RESPONSIVENESS STUFF ***/
 
 @media (max-width: 767px) {
