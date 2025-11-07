@@ -9446,6 +9446,10 @@ header .logo > div:first-of-type {
 	color: white;
 }
 
+.z-a:hover{
+	color: var(--selfservice-default-link-color);
+}
+
 /*** MEDIA QUERIES / RESPONSIVENESS STUFF ***/
 
 @media (max-width: 767px) {
