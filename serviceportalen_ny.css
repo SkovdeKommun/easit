@@ -9385,6 +9385,10 @@ header .logo > div:first-of-type {
     box-shadow: none;
     -webkit-box-shadow: none;
 }
+
+.selfservice-mobileitemlist-component.selection-mode-single .z-listbox .z-listitem:hover .z-listcell .z-listcell-content, .selfservice-mobileitemlist-component.selection-mode-multiple .z-listbox .z-listitem:hover .z-listcell:nth-child(2) .z-listcell-content{
+	box-shadow: none;
+}
 /*** MINA ÄRENDEN END ***/
 
 
