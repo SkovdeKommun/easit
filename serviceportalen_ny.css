@@ -9131,7 +9131,7 @@ body{
 .widget{
 	border: 0;
 	background-color: transparent;
-	
+	box-shadow: none;
 }
 
 .widget .widget-title{
