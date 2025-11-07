@@ -9393,6 +9393,11 @@ header .logo > div:first-of-type {
 .panel-gradient .panel-body UL LI A{
 	transition: scale 0.2s ease-out;
 }
+
+.panel-gradient .panel-body UL LI A:hover{
+	scale: 1.02;
+	background: transparent;
+}
 /*** MINA ÄRENDEN END ***/
 
 
