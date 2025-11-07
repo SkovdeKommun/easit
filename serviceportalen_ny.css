@@ -9442,6 +9442,10 @@ header .logo > div:first-of-type {
 }
 /*** SOME HOVER STUFF END ***/
 
+.eControlRow .z-button{
+	color: white;
+}
+
 /*** MEDIA QUERIES / RESPONSIVENESS STUFF ***/
 
 @media (max-width: 767px) {
