@@ -9450,6 +9450,13 @@ header .logo > div:first-of-type {
 	color: var(--selfservice-default-link-color);
 }
 
+/*** RADIO-BUTTONS ETC ***/
+
+.radio label, .checkbox label{
+	display: inline-block;
+	width: 100%;
+}
+
 /*** MEDIA QUERIES / RESPONSIVENESS STUFF ***/
 
 @media (max-width: 767px) {
