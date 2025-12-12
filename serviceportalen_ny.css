@@ -9457,6 +9457,10 @@ header .logo > div:first-of-type {
 	width: 100%;
 }
 
+.selfservice-externalsearchservice-function{
+	background: transparent;
+}
+
 /*** MEDIA QUERIES / RESPONSIVENESS STUFF ***/
 
 @media (max-width: 767px) {
