@@ -9461,6 +9461,12 @@ header .logo > div:first-of-type {
 	background: transparent;
 }
 
+div.form-group.z-div:has([testid="ad-ss-component-Valdabehörigheter"]){
+	border: 1px solid #dddddd;
+    border-radius: 4px;
+    padding: 10px;
+}
+
 /*** MEDIA QUERIES / RESPONSIVENESS STUFF ***/
 
 @media (max-width: 767px) {
