@@ -9458,7 +9458,7 @@ header .logo > div:first-of-type {
 }
 
 .selfservice-externalsearchservice-function{
-	background: transparent;
+	background: transparent !important;
 }
 
 div.form-group.z-div:has([testid="ad-ss-component-Valdabehörigheter"]){
