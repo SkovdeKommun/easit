@@ -9457,6 +9457,10 @@ header .logo > div:first-of-type {
 	width: 100%;
 }
 
+.radio, .checkbox{
+	display: flex;
+}
+
 .selfservice-externalsearchservice-function{
 	background: transparent !important;
 }
