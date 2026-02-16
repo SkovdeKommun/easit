@@ -9509,6 +9509,10 @@ div:has(div[testid="ad-ss-component-RosenhagaLila"]) > label {
   margin-left: 75px;
 }
 
+div:has(div[testid="ad-ss-component-KartläggningsplatsRosenhaga"]) > label {
+  margin-left: 25px;
+}
+
 div:has(div[testid="ad-ss-component-Stödboende"]) > label {
   margin-left: 25px;
 }
@@ -9517,6 +9521,14 @@ div:has(div[testid="ad-ss-component-StödboendeAllén"]) > label {
 }
 div:has(div[testid="ad-ss-component-StödboendeRosenhaga"]) > label {
   margin-left: 50px;
+}
+
+div:has(div[testid="ad-ss-component-Träningslägenhet"]) > label {
+  margin-left: 25px;
+}
+
+div:has(div[testid="ad-ss-component-Öppenvård"]) > label {
+  margin-left: 25px;
 }
 
 div:has(div[testid="ad-ss-component-Öppenvård/beroende"]) > label {
