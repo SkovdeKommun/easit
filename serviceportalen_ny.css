@@ -9460,6 +9460,9 @@ header .logo > div:first-of-type {
 .radio, .checkbox{
 	display: flex;
 }
+input[type="checkbox"]{
+  min-width: 20px;
+}
 
 .selfservice-externalsearchservice-function{
 	background: transparent !important;
