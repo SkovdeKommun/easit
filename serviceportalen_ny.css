@@ -9527,6 +9527,10 @@ div:has(div[testid="ad-ss-component-Träningslägenhet"]) > label {
   margin-left: 25px;
 }
 
+div:has(div[testid="ad-ss-component-SoLNattgrupp"]) > label {
+  margin-left: 25px;
+}
+
 .form-group.z-div:has(div[testid="ad-ss-component-Öppenvård"]){
   margin-left: 25px;
 }
