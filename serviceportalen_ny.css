@@ -9484,3 +9484,41 @@ div.form-group.z-div:has([testid="ad-ss-component-Valdabehörigheter"]){
 		width: 100%;
 	}
 }
+
+
+/*** Custom stuff for Combine: ***/
+div:has(div[testid="ad-ss-component-Parkgatan"]) > label {
+  margin-left: 25px;
+}
+
+div:has(div[testid="ad-ss-component-Käpplundagatan"]) > label {
+  margin-left: 25px;
+}
+div:has(div[testid="ad-ss-component-Rosenhaga"]) > label {
+  margin-left: 25px;
+}
+
+div:has(div[testid="ad-ss-component-RosenhagaBlå"]) > label {
+  margin-left: 50px;
+}
+
+div:has(div[testid="ad-ss-component-RosenhagaLila"]) > label {
+  margin-left: 50px;
+}
+
+
+div:has(div[testid="ad-ss-component-StödboendeAllén"]) > label {
+  margin-left: 25px;
+}
+div:has(div[testid="ad-ss-component-StödboendeRosenhaga"]) > label {
+  margin-left: 25px;
+}
+
+
+div:has(div[testid="ad-ss-component-Öppenvård/beroendeAllén"]) > label {
+  margin-left: 25px;
+}
+div:has(div[testid="ad-ss-component-Öppenvård/beroendeRosenhaga"]) > label {
+  margin-left: 25px;
+}
+
