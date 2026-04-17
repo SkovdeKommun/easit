@@ -9545,3 +9545,6 @@ div:has(div[testid="ad-ss-component-Öppenvård/beroendeRosenhaga"]) > label {
   margin-left: 50px;
 }
 
+.row.selfservice-designarea.selfservice-lrext-right-row2-3x33-designarea.z-div{
+  display: flex;
+}
