@@ -9371,6 +9371,12 @@ header .logo > div:first-of-type {
 
 .mi-ct > button.lon{
 	background-color: red;
+	border: red
+}
+
+.mi-ct > button.lon:hover{
+	background-color: darkred;
+	border: darkred
 }
 
 .mi-ct .card-header > button{
