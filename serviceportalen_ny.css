@@ -9369,6 +9369,10 @@ header .logo > div:first-of-type {
     font-size: 2rem !important;
 }
 
+.mi-ct > button.lon{
+	background-color: red;
+}
+
 .mi-ct .card-header > button{
     font-size: 3rem !important;
 }
