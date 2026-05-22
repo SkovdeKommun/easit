@@ -9357,6 +9357,14 @@ header .logo > div:first-of-type {
     font-size: 2rem !important;
 }
 
+.mi-ct .ct-message{
+	font-size: 12pt;
+}
+
+.mi-ct .text-muted{
+	font-size: 12px !important;
+}
+
 .mi-ct .form-control{
 	font-size: 2rem !important;
 }
