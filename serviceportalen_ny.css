@@ -9395,6 +9395,13 @@ header .logo > div:first-of-type {
 	font-size: 12pt;
 }
 
+@media (max-width: 1280px) {
+    .mi-ct #chat-card {
+        max-width: 75% !important;
+		max-height: 85% !important;
+    }
+}
+
 /*** CHAT WIDGET END ***/
 
 /*** MINA ÄRENDEN ***/
