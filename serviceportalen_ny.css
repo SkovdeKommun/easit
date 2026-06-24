@@ -9350,6 +9350,10 @@ header .logo > div:first-of-type {
 	padding: 20px !important;
 }
 
+.selfservice-whatdoyouwanttodo-mini-widget .z-div:has(> .faq-search-label){
+	margin: 0 15px;
+}
+
 /*** FAQ-KOMPONENT END ***/
 
 /*** CHAT WIDGET ***/
