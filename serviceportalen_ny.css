@@ -9510,6 +9510,18 @@ div.form-group.z-div:has([testid="ad-ss-component-Valdabehörigheter"]){
 	}
 }
 
+/*** "Tack! Din information är nu sparad.-screen ***/
+.confirmation-box-button a{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.confirmation-box-button a i{
+	margin: 0;
+	padding: 10px;
+}
+
 
 /*** Custom stuff for Combine: ***/
 div:has(div[testid="ad-ss-component-Bostadmedsärskildservice"]) > label {
