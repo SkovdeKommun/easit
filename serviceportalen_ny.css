@@ -9598,6 +9598,10 @@ div:has(div[testid="ad-ss-component-Öppenvård/beroendeRosenhaga"]) > label {
 	margin-bottom: 15px;
 }
 
+.form-group{
+	margin-bottom: 0px;
+}
+
 .form-group.right.z-div>.z-div{
 	display: flex;
 	flex-direction: row-reverse;
