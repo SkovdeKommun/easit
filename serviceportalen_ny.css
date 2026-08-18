@@ -9593,3 +9593,17 @@ div:has(div[testid="ad-ss-component-Öppenvård/beroendeRosenhaga"]) > label {
 .row.selfservice-designarea.selfservice-lrext-right-row2-3x33-designarea.z-div{
   display: flex;
 }
+
+.form-group:not(:has(.controlStaticLabel)){
+	margin-bottom: 15px;
+}
+
+.form-group.right.z-div>.z-div{
+	display: flex;
+	flex-direction: row-reverse;
+}
+
+.form-group .field-label{
+	padding-bottom: 0px;
+}
+
