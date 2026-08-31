@@ -9615,3 +9615,10 @@ div:has(div[testid="ad-ss-component-Öppenvård/beroendeRosenhaga"]) > label {
 	padding-bottom: 0px;
 }
 
+/* SPECIAL FÖR SKOLSKJUTS/TAXI */
+.threeColumnItem{
+  display: inline-flex;
+  width: 33%;
+}
+
+
