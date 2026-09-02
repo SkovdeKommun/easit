@@ -9625,6 +9625,11 @@ div:has(div[testid="ad-ss-component-Öppenvård/beroendeRosenhaga"]) > label {
   width: 100% !important;
 }
 
+.selfservice-lrext-left-designarea div.threeColumnItem:has(.controlStaticEmptySpace){
+  width: 100% !important;
+}
+
+
 
 
 
