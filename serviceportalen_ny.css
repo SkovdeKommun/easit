@@ -9621,14 +9621,10 @@ div:has(div[testid="ad-ss-component-Öppenvård/beroendeRosenhaga"]) > label {
   width: 33%;
 }
 
-.selfservice-lrext-right-row3-1x100-designarea div.threeColumnItem:has(.controlStaticLabel){
+.selfservice-lrext-left-designarea div.threeColumnItem:has(.controlStaticEmptySpace),
+.selfservice-lrext-right-row3-1x100-designarea div.threeColumnItem:has(.controlStaticEmptySpace){
   width: 100% !important;
 }
-
-.selfservice-lrext-left-designarea div.threeColumnItem:has(.controlStaticEmptySpace){
-  width: 100% !important;
-}
-
 
 
 
