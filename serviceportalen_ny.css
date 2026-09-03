@@ -9626,6 +9626,9 @@ div:has(div[testid="ad-ss-component-Öppenvård/beroendeRosenhaga"]) > label {
   width: 100% !important;
 }
 
+.z-select-select-disabled{
+	background-color: #eeeeee !important;
+}
 
 
 
