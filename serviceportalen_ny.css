@@ -9630,6 +9630,10 @@ div:has(div[testid="ad-ss-component-Öppenvård/beroendeRosenhaga"]) > label {
 	background-color: #eeeeee !important;
 }
 
+.threeColumnItem:has(div.controlStaticLabel .z-label) {
+  width: 100% !important;
+}
+
 
 
 
