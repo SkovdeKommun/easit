@@ -9634,5 +9634,9 @@ div:has(div[testid="ad-ss-component-Öppenvård/beroendeRosenhaga"]) > label {
     width: 100%;
 }
 
+.threeColumnItem select {
+    width: 75% !important;
+}
+
 
 
