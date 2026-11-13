@@ -9639,7 +9639,7 @@ div:has(div[testid="ad-ss-component-Öppenvård/beroendeRosenhaga"]) > label {
 }
 
 .messageboard .widget-content{
-	border: 5px solid red !impoartant;
+	border: 5px solid red !important;
 }
 
 
